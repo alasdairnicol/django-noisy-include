@@ -38,7 +38,7 @@ class NoisyIncludeNode(IncludeNode):
                 return template.render(context.new(values))
             with context.push(**values):
                 return template.render(context)
-        except Exception as e:
+        except Exception:
             raise
 
 
@@ -83,4 +83,4 @@ def do_include(parser, token):
     namemap = options.get('with', {})
     bits[1] = construct_relative_path(parser.origin.template_name, bits[1])
     return NoisyIncludeNode(parser.compile_filter(bits[1]), extra_context=namemap,
-                       isolated_context=isolated_context)
+                            isolated_context=isolated_context)
