@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name='Django Noisy Include',
     version='0.1.0',
-    author='Alasdsair Nicol',
+    author='Alasdair Nicol',
     author_email='alasdair@thenicols.net',
     packages=['noisy_include'],
     license='LICENSE.txt',
