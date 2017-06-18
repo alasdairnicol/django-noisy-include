@@ -1,5 +1,8 @@
 BSD 3-Clause License
 
+Note that noisy_include/templatetags/noisy_include.py is copyright Django
+Software Foundation and individual contributors (see LICENSE.django).
+
 Copyright (c) 2017, Alasdair Nicol
 All rights reserved.
 
