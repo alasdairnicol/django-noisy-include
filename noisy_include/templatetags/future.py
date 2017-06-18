@@ -1,3 +1,9 @@
+"""
+Copied from Django with minor modifications
+
+Copyright (c) Django Software Foundation and individual contributors
+(see LICENSE.django)
+"""
 from django.utils import six
 
 from django.template.loader_tags import construct_relative_path, IncludeNode
